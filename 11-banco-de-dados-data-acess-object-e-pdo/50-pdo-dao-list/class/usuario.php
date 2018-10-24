@@ -68,7 +68,7 @@ class Usuario{
 		return $sql->select("SELECT * FROM tb_usuarios ORDER BY deslogin;");
 	}
 
-	public static function search($Login){
+	public static function search($login){
 
 		$sql = new Sql();
 
@@ -77,7 +77,7 @@ class Usuario{
 
 	}
 
-	public function login($Login, $password){
+	public function login($login, $password){
 
 		$sql = new Sql();
 
