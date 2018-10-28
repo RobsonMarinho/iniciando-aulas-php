@@ -1,6 +1,6 @@
 <?php
 
-//Recebe o nome do arquivo foto 
+//Recebe o nome do arquivo (foto) 
 $filename = "html5.png";
 
 $base64 = base64_encode(file_get_contents($filename));
