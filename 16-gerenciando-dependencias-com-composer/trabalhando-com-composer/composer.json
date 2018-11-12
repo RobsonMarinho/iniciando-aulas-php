@@ -1,0 +1,15 @@
+{
+    "name": "hcodebr/trabalhando-com-composer",
+    "description": "Aula de php 7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Robson Marinho",
+            "email": "robson_luz15@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
